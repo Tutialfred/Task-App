@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: rgb(155, 155, 155);
+    font-size: 30px;
+    position: relative;
+    left: 600px;
+    top: 60px;
+}
+
+
+.tareaNew{
+    font-size: 20px;
+    position: relative;
+    right: 50px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding: 15px;
+}
+.tareaNew:focus{
+    outline: 4px solid white;
+}
+.boton{
+    padding: 15px;
+    margin: 0 0 30px 5px;
+}
