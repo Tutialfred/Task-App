@@ -1,14 +1,14 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
-}
+} */
 body{
     background-color: rgb(155, 155, 155);
     font-size: 30px;
     position: relative;
-    left: 600px;
-    top: 60px;
+    left: 450px;
+    top: 150px;
+    max-width: 50%;
 }
 
 
@@ -27,4 +27,71 @@ body{
 .boton{
     padding: 15px;
     margin: 0 0 30px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* OTRA MEDIDA */
+
+
+
+@media screen and (min-width: 460px) and (max-width: 800px) { 
+    .tareaNew{
+        font-size: 15px;
+        position: relative;
+        right: 50px;
+        background-color: rgb(255, 0, 0);
+        color: rgb(255, 0, 0);
+        margin-top: 30px;
+        padding: 15px;
+    }
+    body{
+        background-color: rgb(155, 155, 155);
+        font-size: 20px;
+        position: relative;
+        left: 310px;
+        top: 150px;
+        max-width: 320px
+    }
+    .boton{
+        padding: 10px;
+        margin: 0 0 30px 5px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 120px) and (max-width: 450px) {
+    .tareaNew{
+        font-size: 15px;
+        position: relative;
+        right: 50px;
+        background-color: black;
+        color: white;
+        margin-top: 30px;
+        padding: 15px;
+    }
+    body{
+        background-color: rgb(155, 155, 155);
+        font-size: 15px;
+        position: relative;
+        left: 110px;
+        top: 150px;
+        max-width: 320px
+    }
+    .boton{
+        padding: 10px;
+        margin: 0 0 30px 5px;
+    }
 }
